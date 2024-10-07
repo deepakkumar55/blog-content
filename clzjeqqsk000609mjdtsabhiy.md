@@ -133,13 +133,8 @@ Once you've selected the elements you want to manipulate, you can modify their c
 * `textContent`: Similar to `innerText`, this property sets or returns the text content of an element. However, `textContent` is more consistent across different browsers and also includes hidden elements' text.
     
     ```javascript
-    element
-    ```
-    
-
-.textContent = 'New Content';
-
-````plaintext
+    element .textContent = 'New Content';
+```
 
 **Safeguards Against XSS Attacks**
 
@@ -152,7 +147,7 @@ HTML attributes provide additional information about elements and can be manipul
 - **`setAttribute`**: This method adds a new attribute or changes the value of an existing attribute.
 ```javascript
 element.setAttribute('src', 'image.jpg');
-````
+
 
 * `getAttribute`: This method returns the value of an attribute.
     

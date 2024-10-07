@@ -134,7 +134,7 @@ Once you've selected the elements you want to manipulate, you can modify their c
     
     ```javascript
     element .textContent = 'New Content';
-```
+
 
 **Safeguards Against XSS Attacks**
 
